@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Back.iml" filepath="$PROJECT_DIR$/.idea/Back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/board/board.iml" filepath="$PROJECT_DIR$/board/board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/color/color.iml" filepath="$PROJECT_DIR$/color/color.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dice/dice.iml" filepath="$PROJECT_DIR$/dice/dice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game/game.iml" filepath="$PROJECT_DIR$/game/game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pawn/pawn.iml" filepath="$PROJECT_DIR$/pawn/pawn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/player/player.iml" filepath="$PROJECT_DIR$/player/player.iml" />
+    </modules>
+  </component>
+</project>
