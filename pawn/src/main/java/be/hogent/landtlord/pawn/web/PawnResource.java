@@ -27,7 +27,7 @@ public class PawnResource {
         return ResponseEntity.ok(pawnService.movePawnTo(id, coordinate));
     }
 
-    @PostMapping("pawns/home/{id}")
+    @GetMapping("pawns/home/{id}")
     public ResponseEntity<Pawn> movePawnToHome(@PathVariable Long id){
         return ResponseEntity.ok(pawnService.movePawnToHome(id));
     }

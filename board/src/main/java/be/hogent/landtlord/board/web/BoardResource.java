@@ -18,7 +18,7 @@ public class BoardResource {
     @Autowired
     private BoardService boardService;
 
-    @PostMapping("Boards/")
+    @PostMapping("boards/")
     public ResponseEntity<Coordinate> getNewCoordinate(@RequestBody Move move){
         return ResponseEntity.ok(boardService.getNewCoordinate(move));
     }

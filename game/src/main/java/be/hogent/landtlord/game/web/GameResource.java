@@ -22,7 +22,7 @@ public class GameResource {
         return ResponseEntity.ok(gameService.getById(id));
     }
 
-    @GetMapping("games/new")
+    @PostMapping("games/new")
     public ResponseEntity<Game> getNewGame(@RequestBody List<Long> playerIds) {
         return ResponseEntity.ok(gameService.startNewGame(playerIds));
     }

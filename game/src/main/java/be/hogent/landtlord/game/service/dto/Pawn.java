@@ -9,4 +9,6 @@ public class Pawn {
     private Coordinate coordinate;
 
     private Long colorId;
+
+    private String color;
 }

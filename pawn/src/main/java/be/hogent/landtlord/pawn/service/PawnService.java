@@ -54,29 +54,29 @@ public class PawnService {
     public List<Pawn> getNewPawnsFor(Long colorId) {
         List<PawnEntity> pawns = new ArrayList<>();
         switch (colorId.intValue()) {
-            case 0: //red
+            case 1: //red
                 pawns.add(new PawnEntity(colorId, 0, 0));
                 pawns.add(new PawnEntity(colorId, 0, 1));
                 pawns.add(new PawnEntity(colorId, 1, 0));
                 pawns.add(new PawnEntity(colorId, 1, 1));
                 break;
-            case 1: //bleuEntity
+            case 2: //bleuEntity
                 pawns.add(new PawnEntity(colorId, 9, 0));
                 pawns.add(new PawnEntity(colorId, 9, 1));
                 pawns.add(new PawnEntity(colorId, 10, 0));
                 pawns.add(new PawnEntity(colorId, 10, 1));
-                break;
-            case 2: //yellowEntity
-                pawns.add(new PawnEntity(colorId, 0, 9));
-                pawns.add(new PawnEntity(colorId, 0, 10));
-                pawns.add(new PawnEntity(colorId, 1, 9));
-                pawns.add(new PawnEntity(colorId, 1, 10));
                 break;
             case 3: //greenEntity
                 pawns.add(new PawnEntity(colorId, 9, 9));
                 pawns.add(new PawnEntity(colorId, 9, 10));
                 pawns.add(new PawnEntity(colorId, 10, 9));
                 pawns.add(new PawnEntity(colorId, 10, 10));
+                break;
+            case 4: //yellowEntity
+                pawns.add(new PawnEntity(colorId, 0, 9));
+                pawns.add(new PawnEntity(colorId, 0, 10));
+                pawns.add(new PawnEntity(colorId, 1, 9));
+                pawns.add(new PawnEntity(colorId, 1, 10));
                 break;
             default:
                 break;

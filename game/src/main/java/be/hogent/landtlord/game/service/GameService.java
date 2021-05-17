@@ -44,8 +44,7 @@ public class GameService {
         GameEntity entity = gameRepository.save(gameEntity);
         Game game = gameMapper.toDto(entity);
 
-        game.setPlayers(players);
-        game.setPawns(pawns);
+        enrich(game);
 
         return game;
     }
@@ -103,11 +102,19 @@ public class GameService {
     }
 
     private Pawn fetchPawnById(Long id) {
-        return new RestTemplate().getForObject("http://localhost:8084/api/pawns/" + id, Pawn.class);
+        Pawn pawn = new RestTemplate().getForObject("http://localhost:8084/api/pawns/" + id, Pawn.class);
+        pawn.setColor(fetchColorString(pawn.getColorId()));
+        return pawn;
     }
 
     private Player fetchPlayerById(Long id) {
-        return new RestTemplate().getForObject("http://localhost:8083/api/players/" + id, Player.class);
+        Player player = new RestTemplate().getForObject("http://localhost:8083/api/players/" + id, Player.class);
+        player.setColor(fetchColorString(player.getColorId()));
+        return player;
+    }
+
+    private String fetchColorString(Long id){
+        return new RestTemplate().getForObject("http://localhost:8085/api/colors/" + id, Color.class).getColor();
     }
 
     private List<Long> getPawnIds(List<Pawn> pawns) {
