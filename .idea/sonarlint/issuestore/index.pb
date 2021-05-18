@@ -7,8 +7,6 @@ t
 Ddice/src/main/java/be/hogent/landtlord/dice/business/DiceEntity.java,b\5\b5f745b72bd45bcb0a53d345f8d9e46f8ebea69a
 q
 Agame/src/main/java/be/hogent/landtlord/game/service/dto/Game.java,1\3\1361ba0d2fcf021bce228643832fde9853a30625
-z
-Jgame/src/main/java/be/hogent/landtlord/game/service/mapper/GameMapper.java,5\a\5addf8f22b126a57b8902c66dceec090bf558e31
 }
 Mgame/src/main/java/be/hogent/landtlord/game/business/repo/gameRepository.java,e\b\ebe68cbbbfd2ae13bdd528890de6d70839a949c4
 q
@@ -40,15 +38,11 @@ Jdice/src/main/java/be/hogent/landtlord/dice/service/mapper/DiceMapper.java,e\a
 <
 pawn/pom.xml,b\9\b90043e5cfa4285d5102ae82690367ebd4917cb0
 w
-Gpawn/src/main/java/be/hogent/landtlord/pawn/service/dto/Coordinate.java,5\4\54b39e2bfdb943762ea465f54634bcb62245c988
-w
 Gplayer/src/main/java/be/hogent/landtlord/player/web/PlayerResource.java,b\7\b70997164ce5beb7817715bc18dc567b16928e53
 t
 Dpawn/src/main/java/be/hogent/landtlord/pawn/business/PawnEntity.java,0\e\0ee0064cd41acf73950f0dd62602ed0369dea545
 q
 Adice/src/main/java/be/hogent/landtlord/dice/web/DiceResource.java,4\8\48628e94edd4db461df3df294d7daffbd8680d2f
-q
-Apawn/src/main/java/be/hogent/landtlord/pawn/service/dto/Pawn.java,a\f\af95f22d47234f5d3e36306abf54121d828f9cd6
 €
 Pplayer/src/main/java/be/hogent/landtlord/player/service/mapper/PlayerMapper.java,8\2\826ec8ba43b4cfc29d2fe09de35469940277c349
 >
