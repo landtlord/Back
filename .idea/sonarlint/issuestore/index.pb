@@ -19,22 +19,16 @@ v
 Fplayer/src/main/java/be/hogent/landtlord/player/PlayerApplication.java,2\6\262948cd78360cf27dcf51eb62117aac19b22d25
 s
 Cboard/src/main/java/be/hogent/landtlord/board/BoardApplication.java,0\b\0b53f3093dc4a37d92138fde1c022bc04c2d1259
-w
-Gboard/src/main/java/be/hogent/landtlord/board/business/BoardEntity.java,4\d\4db0d2df41c9524be24447c553166810cc9580a3
 t
 Dboard/src/main/java/be/hogent/landtlord/board/service/dto/Board.java,1\d\1d464410a015549c53bb5f84bc1230c92c437554
 }
 Mboard/src/main/java/be/hogent/landtlord/board/service/mapper/BoardMapper.java,c\c\ccbebf979e2e7630b32b3bd5f9fcb9390bff3735
 <
 dice/pom.xml,a\7\a7c448519d8d40e2df3e0490922f196fd83d65b9
-=
-board/pom.xml,9\8\9814c293deac9d55c1c3d4d75335d197e5840a5a
 <
 game/pom.xml,8\0\80d44bfc900d2f60524799b0f6103617a0ed9de6
 w
 Gplayer/src/main/java/be/hogent/landtlord/player/service/dto/Player.java,e\e\eee7e7fbcef3d4d9ed9b86a2ddd771a6b38951ef
-t
-Ddice/src/main/java/be/hogent/landtlord/dice/service/DiceService.java,1\e\1e85e164208095083d006d708c045f2ede207c92
 ƒ
 Splayer/src/main/java/be/hogent/landtlord/player/business/repo/PlayerRepository.java,e\4\e4c6c0931a34d197839c6fd00f5e5c0ccadbc6fc
 z
@@ -75,9 +69,19 @@ w
 Ggame/src/main/java/be/hogent/landtlord/game/service/dto/Coordinate.java,c\a\caa51ba7d7ae8243ea65ced10a1a4102666bc033
 s
 Ccolor/src/main/java/be/hogent/landtlord/color/ColorApplication.java,1\d\1db0996f65edce98ad16b0130039a977e2678451
-u
-Epawn/src/test/java/be/hogent/landtlord/pawn/PawnApplicationTests.java,4\4\44461d364ddfcc0907119ac5d115f0a4f3012f67
 s
 Cboard/src/main/java/be/hogent/landtlord/board/service/dto/Dice.java,5\7\57f2523e4872417d710cbfc258a96d8d486be4d6
 s
 Cboard/src/main/java/be/hogent/landtlord/board/service/dto/Pawn.java,d\9\d90bf67cec9c891fb2f4685562e7b9cf8c41217d
+w
+Gcolor/src/main/java/be/hogent/landtlord/color/business/ColorEntity.java,7\a\7aa6f4a45a9534837c10628a0145f7b55970a84c
+€
+Pcolor/src/main/java/be/hogent/landtlord/color/business/repo/ColorRepository.java,6\9\69f4a6b44e22eff0554b6334ea5230579905f7b2
+p
+@game/src/main/java/be/hogent/landtlord/game/GameApplication.java,8\c\8c9efe4f8f9b80b9b2c3db317c1ebcc26e3546ad
+q
+Agame/src/main/java/be/hogent/landtlord/game/web/GameResource.java,3\0\306a2b8dd59185d51a7787625db46a5e8b047c33
+p
+@pawn/src/main/java/be/hogent/landtlord/pawn/PawnApplication.java,a\d\ad9bf5f3c351870e326ef2045d5de5c21949b3c3
+x
+Hboard/src/test/java/be/hogent/landtlord/board/BoardApplicationTests.java,6\4\646c8b741bcfb92205395fab4ec98ce347c91d0d

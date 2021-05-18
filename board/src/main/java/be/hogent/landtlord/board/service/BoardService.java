@@ -21,8 +21,9 @@ public class BoardService {
     @Autowired
     private BoardRepository boardRepository;
 
+    private RestTemplate restTemplate = new RestTemplate();
+
     public Coordinate getNewCoordinate(Move move) {
-        RestTemplate restTemplate = new RestTemplate();
         Dice dice = restTemplate.getForObject("http://localhost:8081/api/dices/" + move.getDiceId(), Dice.class);
         Pawn pawn = restTemplate.getForObject("http://localhost:8084/api/pawns/" + move.getPawnToMoveId(), Pawn.class);
 
@@ -30,7 +31,11 @@ public class BoardService {
             throw new IllegalArgumentException();
         }
 
-        if (pawnIsOnHomeField(pawn)) {
+        if (pawnIsOnHomeField(pawn) && dice.getDice()!=6) {
+            throw new IllegalArgumentException();
+        }
+
+        if (pawnIsOnHomeField(pawn) && dice.getDice()==6) {
             return boardRepository.findById(getStartFieldId(pawn));
         }
 
